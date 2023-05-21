@@ -14,7 +14,6 @@
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"Executable",
         "UpdateSourceData":"/bin/bash",
-		"UpdateSourceTarget":"{{$FullBaseDir}}",
-        "UpdateSourceArgs":"dotnet publish -c Release -r linux-x64 --no-self-contained"
+        "UpdateSourceArgs":"{{$FullBaseDir}}dotnet publish -c Release -r linux-x64 SS14.Watchdog -o test"
     }
 ]
