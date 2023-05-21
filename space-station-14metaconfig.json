@@ -1,12 +1,12 @@
 [
     {
-        "ConfigFile": "config.toml",
-        "ConfigType": "json",
-        "AutoMap": false
+        "ConfigFile": "{{HostName}}/config.toml",
+        "ConfigType": "toml",
+        "AutoMap": true
     },
     {
         "ConfigFile": "appsettings.yml",
-        "ConfigType": "json",
-        "AutoMap": false
+        "ConfigType": "yml",
+        "AutoMap": true
     }
 ]

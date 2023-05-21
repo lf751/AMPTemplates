@@ -1,1 +1,19 @@
-[]
+[
+    {
+        "UpdateStageName":"Server Download",
+        "UpdateSourcePlatform":"All",
+        "UpdateSource":"FetchURL",
+        "UpdateSourceData":"https://github.com/space-wizards/SS14.Watchdog/archive/refs/heads/",
+        "UpdateSourceArgs":"master.zip",
+        "UpdateSourceTarget":"{{$FullRootDir}}",
+        "UnzipUpdateSource":true,
+        "OverwriteExistingFiles":true,
+        "DeleteAfterExtract":true
+    },
+	{
+        "UpdateStageName":"Build Watchdog",
+        "UpdateSourcePlatform":"All",
+        "UpdateSource":"Build",
+        "UpdateSourceArgs":"{{$FullRootDir}}dotnet publish -c Release -r linux-x64 --no-self-contained"
+    }
+]
