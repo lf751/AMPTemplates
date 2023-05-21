@@ -1,0 +1,36 @@
+[
+    {
+        "DisplayName": "Server Name",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "server,name",
+        "FieldName": "",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "Placeholder": "",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Max Players",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "max,players",
+        "FieldName": "maxplayers",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "maxplayers",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "128",
+        "Placeholder": "128",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    }
+]

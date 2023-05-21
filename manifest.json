@@ -1,9 +1,10 @@
 {
-	"id": "ec280171-c67b-4cf8-923f-dc27fea91ee1",
-	"authors": ["CubeCoders Limited", "AMP Community"],
-	"origin": "https://github.com/CubeCoders/AMPTemplates.git",
-	"url": "https://github.com/CubeCoders/AMPTemplates",
-	"imagefile": "",
-	"prefix": "",
-	"repotype": "AppTemplates"
+    "id": "5d2764a5-5931-44b3-a8cf-6fb10ecef61c",
+    "authors": [
+        "BudgieGames"
+    ],
+    "origin": "https://github.com/BudgieGames/AMPTemplates.git",
+    "url": "https://github.com/BudgieGames/AMPTemplates",
+    "imagefile": "",
+    "prefix": "BudgieGames"
 }

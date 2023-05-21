@@ -1,0 +1,9 @@
+[
+    {
+        "Protocol": "Both",
+        "Port": "1212",
+        "Name": "Main Port",
+        "Description": "Port for main traffic",
+        "Ref": "MainPort"
+    }
+]

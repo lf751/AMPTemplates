@@ -1,0 +1,12 @@
+[
+    {
+        "ConfigFile": "config.toml",
+        "ConfigType": "json",
+        "AutoMap": false
+    },
+    {
+        "ConfigFile": "appsettings.yml",
+        "ConfigType": "json",
+        "AutoMap": false
+    }
+]
