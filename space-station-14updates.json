@@ -4,7 +4,7 @@
         "UpdateSourcePlatform":"All",
         "UpdateSource":"FetchURL",
         "UpdateSourceData":"https://github.com/space-wizards/SS14.Watchdog/archive/refs/heads/master.zip",
-        "UpdateSourceTarget":"{{$FullBaseDir}}",
+        "UpdateSourceTarget":"{{$FullRootDir}}",
         "UnzipUpdateSource":true,
         "OverwriteExistingFiles":true,
         "DeleteAfterExtract":true
@@ -14,6 +14,7 @@
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"Executable",
         "UpdateSourceData":"/bin/bash",
+		"UpdateSourceTarget":"{{$FullBaseDir}}",
         "UpdateSourceArgs":"dotnet publish -c Release -r linux-x64 --no-self-contained"
     }
 ]
