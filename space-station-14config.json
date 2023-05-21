@@ -32,5 +32,18 @@
         "Hidden": false,
         "SkipIfEmpty": false,
         "EnumValues": {}
+    },
+	{
+        "DisplayName":"Server Port",
+        "Category":"Server Settings",
+        "Description":"",
+        "Keywords":"",
+        "FieldName":"$ServerPort",
+        "InputType":"number",
+        "Hidden":true,
+        "IsFlagArgument":false,
+        "ParamFieldName":"server_port",
+        "IncludeInCommandLine":false,
+        "EnumValues":{}
     }
 ]
