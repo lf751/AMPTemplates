@@ -1,0 +1,18 @@
+[
+    {
+        "UpdateStageName": "Barotrauma dedicated server",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "1026340",
+        "UpdateSourceArgs": "602960",
+        "UpdateSourceVersion": "",
+        "UpdateSourceTarget": "serverfiles",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "ForceDownloadPlatform": null,
+        "UpdateSourceConditionSetting": null,
+        "UpdateSourceConditionValue": null,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]
