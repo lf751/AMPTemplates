@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <serversettings
-  name="AMP Powered Barotrauma Server"
+  name="Budgie's SubvSub PvP Dedicated"
   port="27015"
   queryport="27016"
   password=""
@@ -34,7 +34,7 @@
   AllowVoteKick="True"
   AllowEndVoting="True"
   AllowRespawn="True"
-  BotCount="0"
+  BotCount="3"
   MaxBotCount="16"
   BotSpawnMode="Normal"
   DisableBotConversations="False"
