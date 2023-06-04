@@ -50,7 +50,7 @@
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"Executable",
         "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"-c 'cp ./SavedFiles/Data/clientpermissions.xml ./Data/'",
+        "UpdateSourceArgs":"-c 'cp .{{$FullBaseDir}}/SavedFiles/Data/clientpermissions.xml .{{$FullBaseDir}}/Data'",
         "OverwriteExistingFiles":true
     },
     {
@@ -58,7 +58,7 @@
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"Executable",
         "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"-c 'cp ./SavedFiles/DedicatedServer.dll ./DedicatedServer.dll'",
+        "UpdateSourceArgs":"-c 'cp .{{$FullBaseDir}}SavedFiles/DedicatedServer.dll .{{$FullBaseDir}}DedicatedServer.dll'",
         "OverwriteExistingFiles":true
     }
 ]
