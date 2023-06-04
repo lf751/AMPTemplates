@@ -37,7 +37,7 @@
   BotCount="3"
   MaxBotCount="16"
   BotSpawnMode="Normal"
-  DisableBotConversations="False"
+  DisableBotConversations="True"
   AllowDisguises="True"
   AllowRewiring="True"
   LockAllDefaultWires="False"
