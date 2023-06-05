@@ -52,13 +52,5 @@
         "UpdateSourceData":"/bin/bash",
         "UpdateSourceArgs":"-c 'cp .{{$FullBaseDir}}SavedFiles/Data/clientpermissions.xml .{{$FullBaseDir}}/Data'",
         "OverwriteExistingFiles":true
-    },
-    {
-        "UpdateStageName":"Copy Saved Files",
-        "UpdateSourcePlatform":"Linux",
-        "UpdateSource":"Executable",
-        "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"-c 'cp .{{$FullBaseDir}}SavedFiles/DedicatedServer.dll .{{$FullBaseDir}}'",
-        "OverwriteExistingFiles":true
     }
 ]
