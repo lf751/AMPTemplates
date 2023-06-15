@@ -29,23 +29,6 @@
         "UpdateSourceArgs":"serversettings.xml"
     },
     {
-        "UpdateStageName":"Lua Mod Download",
-        "UpdateSourcePlatform":"All",
-        "UpdateSource":"FetchURL",
-        "UpdateSourceData":"https://github.com/evilfactory/LuaCsForBarotrauma/releases/download/latest/luacsforbarotrauma_patch_linux_server.zip",
-        "UnzipUpdateSource":true,
-        "OverwriteExistingFiles":true,
-        "DeleteAfterExtract":true,
-        "UpdateSourceTarget":"{{$FullBaseDir}}"
-    },
-    {
-        "UpdateStageName":"Lua Mod Download",
-        "UpdateSourcePlatform":"Linux",
-        "UpdateSource":"Executable",
-        "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"-c 'chmod ./DedicatedServer.exe & chmod +x ./DedicatedServer'"
-    },
-    {
         "UpdateStageName":"Copy Saved Files",
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"Executable",
