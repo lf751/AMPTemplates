@@ -23,7 +23,7 @@
         "UpdateStageName":"Config Template Download",
         "UpdateSourcePlatform":"All",
         "UpdateSource":"FetchURL",
-        "OverwriteExistingFiles":false,
+        "OverwriteExistingFiles":true,
         "UpdateSourceData":"https://raw.githubusercontent.com/lf751/AMPTemplates/main/barotraumaserversettings.xml",
         "UpdateSourceTarget":"{{$FullBaseDir}}",
         "UpdateSourceArgs":"serversettings.xml"
@@ -32,7 +32,7 @@
         "UpdateStageName":"Config Template Download",
         "UpdateSourcePlatform":"All",
         "UpdateSource":"FetchURL",
-        "OverwriteExistingFiles":false,
+        "OverwriteExistingFiles":true,
         "UpdateSourceData":"https://raw.githubusercontent.com/lf751/AMPTemplates/main/clientpermissions.xml",
         "UpdateSourceTarget":"{{$FullBaseDir}}Data",
         "UpdateSourceArgs":"clientpermissions.xml"
