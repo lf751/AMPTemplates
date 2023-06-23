@@ -46,7 +46,7 @@
         "OverwriteExistingFiles":true
     },
     {
-        "UpdateStageName":"Lua Mod Download",
+        "UpdateStageName":"SubvSub Mod Download",
         "UpdateSourcePlatform":"All",
         "UpdateSource":"FetchURL",
         "UpdateSourceData":"https://github.com/Leonidas-ai/SubVSub/releases/download/latest/SubVSub_patch_linux_server.zip",
@@ -56,7 +56,7 @@
         "UpdateSourceTarget":"{{$FullBaseDir}}"
     },
     {
-        "UpdateStageName":"Lua Mod Download",
+        "UpdateStageName":"SubvSub Mod Download",
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"Executable",
         "UpdateSourceData":"/bin/bash",
