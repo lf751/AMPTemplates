@@ -33,9 +33,9 @@
         "UpdateSourcePlatform":"All",
         "UpdateSource":"FetchURL",
         "OverwriteExistingFiles":false,
-        "UpdateSourceData":"https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/barotraumaserversettings.xml",
-        "UpdateSourceTarget":"{{$FullBaseDir}}",
-        "UpdateSourceArgs":"serversettings.xml"
+        "UpdateSourceData":"https://raw.githubusercontent.com/lf751/AMPTemplates/main/clientpermissions.xml",
+        "UpdateSourceTarget":"{{$FullBaseDir}}Data",
+        "UpdateSourceArgs":"clientpermissions.xml"
     },
     {
         "UpdateStageName":"Copy Saved Files",
