@@ -23,7 +23,7 @@
         "UpdateStageName":"Config Template Download",
         "UpdateSourcePlatform":"All",
         "UpdateSource":"FetchURL",
-        "OverwriteExistingFiles":true,
+        "OverwriteExistingFiles":false,
         "UpdateSourceData":"https://raw.githubusercontent.com/lf751/AMPTemplates/main/barotraumaserversettings.xml",
         "UpdateSourceTarget":"{{$FullBaseDir}}",
         "UpdateSourceArgs":"serversettings.xml"
@@ -32,18 +32,10 @@
         "UpdateStageName":"Config Template Download",
         "UpdateSourcePlatform":"All",
         "UpdateSource":"FetchURL",
-        "OverwriteExistingFiles":true,
+        "OverwriteExistingFiles":false,
         "UpdateSourceData":"https://raw.githubusercontent.com/lf751/AMPTemplates/main/clientpermissions.xml",
         "UpdateSourceTarget":"{{$FullBaseDir}}Data",
         "UpdateSourceArgs":"clientpermissions.xml"
-    },
-    {
-        "UpdateStageName":"Copy Saved Files",
-        "UpdateSourcePlatform":"Linux",
-        "UpdateSource":"Executable",
-        "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"-c 'cp .{{$FullBaseDir}}SavedFiles/Data/clientpermissions.xml .{{$FullBaseDir}}/Data'",
-        "OverwriteExistingFiles":true
     },
     {
         "UpdateStageName":"SubvSub Mod Download",
@@ -61,13 +53,5 @@
         "UpdateSource":"Executable",
         "UpdateSourceData":"/bin/bash",
         "UpdateSourceArgs":"-c 'chmod ./DedicatedServer.exe & chmod +x ./DedicatedServer'"
-    },
-    {
-        "UpdateStageName":"Copy Saved Files",
-        "UpdateSourcePlatform":"Linux",
-        "UpdateSource":"Executable",
-        "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"-c 'cp .{{$FullBaseDir}}SavedFiles/Data/clientpermissions.xml .{{$FullBaseDir}}/Data'",
-        "OverwriteExistingFiles":true
     }
 ]
