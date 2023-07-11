@@ -20,6 +20,23 @@
         "UpdateSourceArgs":"/C mkdir \"%LocalAppData%\\Daedalic Entertainment GmbH\\Barotrauma\" & mkdir \"{{$FullBaseDir}}Daedalic Entertainment GmbH\" & mklink /J \"{{$FullBaseDir}}Daedalic Entertainment GmbH\\Barotrauma\" \"%LocalAppData%\\Daedalic Entertainment GmbH\\Barotrauma\""
     },
     {
+        "UpdateStageName":"Lua Mod Download",
+        "UpdateSourcePlatform":"All",
+        "UpdateSource":"FetchURL",
+        "UpdateSourceData":"https://github.com/evilfactory/LuaCsForBarotrauma/releases/download/latest/luacsforbarotrauma_patch_linux_server.zip",
+        "UnzipUpdateSource":true,
+        "OverwriteExistingFiles":true,
+        "DeleteAfterExtract":true,
+        "UpdateSourceTarget":"{{$FullBaseDir}}"
+    },
+    {
+        "UpdateStageName":"Lua Mod Download",
+        "UpdateSourcePlatform":"Linux",
+        "UpdateSource":"Executable",
+        "UpdateSourceData":"/bin/bash",
+        "UpdateSourceArgs":"-c 'chmod ./DedicatedServer.exe & chmod +x ./DedicatedServer'"
+    },
+    {
         "UpdateStageName":"Config Template Download",
         "UpdateSourcePlatform":"All",
         "UpdateSource":"FetchURL",
